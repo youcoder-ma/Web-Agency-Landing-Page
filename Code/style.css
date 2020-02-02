@@ -1,0 +1,262 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: 0;
+    font-family: Roboto;
+}
+
+.container {
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+.header {
+    width:100%;
+    height:80px;
+    background-color: black;
+    border-bottom: 10px solid red;
+}
+
+.inner-header {
+    width:70%;
+    height:100%;
+    margin: 0 auto;
+}
+
+.inner-header h1 {
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 400;
+    color:white;
+    float:left;
+    vertical-align: middle;
+    padding-top:20px;
+}
+.inner-header h1 span {
+    color:red;
+    font-weight:800;
+}
+
+.inner-header ul {
+    margin:0 auto;
+    padding: 0;
+    float: right;
+    list-style-type: none;
+    padding:0 20px;
+}
+.inner-header ul li{
+    display: table-cell;
+    padding:30px 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Roboto;
+}
+
+.inner-header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.inner-header .highlight {
+    color: red;
+}
+
+
+.inner-header ul li:hover{
+    color:red;
+    font-weight:bold;
+    background: red;
+}
+
+.inner-header li:first-child:hover .highlight {
+    color: white;
+}
+
+.showcase {
+    min-height: 400px;
+    background: url(showcase.jpg) 0 -400px no-repeat;
+    text-align: center;
+    color: white;
+    background-position: right;
+    background-size: cover;
+    font-weight: bold;
+    border-bottom: 10px solid red;
+}
+
+.showcase h1 {
+    padding-top:100px;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.showcase p {
+    font-size: 20px;
+    line-height: 1.7;
+}
+.showcase .button-1:link,.showcase .button-1:visited  {
+    padding: 0.2rem 2rem;
+    border-radius: 100px;
+    border:0px;
+    text-decoration:none;
+    background-color: white;
+    margin-top: 26px;
+    display: inline-block;
+    color: #333;
+    font-size: 1.6rem;
+    font-weight: 500;
+    transition: all .3s ease;
+    position: relative;
+}
+
+.showcase .button-1:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, .15);
+
+}
+
+.showcase .button-1::after {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    z-index: -1;
+    transition: all .3s ease;
+
+}
+.showcase .button-1:hover::after {
+    transform: scaleX(1.4) scaleY(1.5);
+    opacity: 0;
+
+}
+#boxes {
+    padding: 0 10% 0 10%;
+    border-bottom: 10px solid red;
+    background-color: #272727;
+}
+
+#boxes .box {
+    float:left;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    border: 10px dotted red;
+    padding: 20px 20px 20px 20px;
+    border-radius: 80px;
+    color:white;
+    text-decoration: none;
+    overflow: hidden;
+    margin: 10px;
+}
+
+#boxes .box p {
+    padding:inherit;
+}
+
+#boxes .box img {
+    width:131px;
+    height:114px;
+}
+#boxes .box h1 {
+    text-transform: uppercase;
+}
+.reviews {
+    border-bottom: 10px solid red;
+    background: #000;
+    color: #fff;
+}
+.reviews h1 {
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 1000;
+    margin-top: 20px;
+    color: #40bfc1;
+    font-size: 35px;
+}
+.reviews blockquote {
+    margin: 20px;
+    border: 5px dotted #40bfc1;
+    border-radius: 100px;
+}
+
+.reviews blockquote p, .reviews blockquote strong {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.reviews blockquote strong {
+    color:#40bfc1;
+}
+#newsletter {
+    padding:15px;
+    color: white;
+    background-color: #6B7581;
+    border-bottom: 10px solid red;
+    
+}
+#newsletter h1 {
+    margin: 30px 20px;
+    float: left;
+    text-transform: capitalize;
+}
+#newsletter form {
+    float: right;
+    
+}
+
+#newsletter form input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width 500px;
+    padding: 8px 50px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    margin:15px 15px;
+    border: 5px solid red;
+}
+#button1 {
+    border-radius: 100px;
+    border:5px solid red;
+    background-color: white;
+    display: inline;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 18px 13px;
+    overflow: hidden;
+    position:relative; 
+    margin:15px;
+    
+}
+#button1:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, .15);
+}
+
+#button1 a{
+    text-decoration:none;
+}
+
+footer {
+    padding:10px;
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+}
+footer p {
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
